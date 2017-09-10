@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>YouTube API Search</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+<div id="container">
+    <header>
+        <h1>Search <span>YouTube</span> Videos via <span>API</span></h1>
+    </header>
+    <section>
+        <form action="#" class="js-search-youtube-form">
+            <label for="query"></label>
+            <div class="fieldcontainer">
+                <input type="search" id="js-criteria" placeholder="Search YouTube Videos">
+                <input type="submit" name="search-button" id="search-button" value="">
+            </div>
+        </form>
+
+        <ul class="js-results">
+
+        </ul>
+
+        <!--<div id="js-buttons"></div>-->
+
+    </section>
+    <footer>Copyright 2017 Jeffrey Yamashiro YouTube API Project</footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
